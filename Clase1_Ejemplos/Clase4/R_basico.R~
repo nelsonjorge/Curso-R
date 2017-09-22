@@ -1,0 +1,64 @@
+#respuesta numero 1
+#Usar R par calcular
+#a)
+1+2*(3+4)
+
+#b)
+sqrt((4+3)*(2+1))
+
+#como pedir ayuda en R studio
+#utilisamos la funcion help()
+help(sd)
+
+#Respuesta 2
+
+#sd es al funcion de desviacion estamtar
+#como pedir ejemplos a R studio
+
+exmple(sd)
+#mustra ejemplos de como usar la funcion sd
+
+#como crear un verctor con el comando : donde ":" es una funcion e R
+x<- 1:10
+
+#class mustra el tipo de variable que añadimos en la funcion class()
+class(x)
+ 
+
+#respuesta 3
+
+#primero mostramso 
+
+help(demo)
+
+demo(plotmath)
+
+#muestra informnacion sobre las operaciones 
+
+#Respuesta 4
+
+help(sample)
+
+mascotas<- factor(sample(c("perrito","gatito","pollito",),100,replace=TRUE))
+
+#conteo de elementos
+
+help(summary)
+
+summary(mascotas)
+
+#instalacion de paquetes
+
+install.packages("set")
+install.packages("dplyr")
+
+#luego 
+
+library(sets)
+
+
+
+
+
+
+
