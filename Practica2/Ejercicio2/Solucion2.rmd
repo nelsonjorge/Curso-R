@@ -1,0 +1,35 @@
+Nombre : Nelson Jorge Condor 20150533I
+Respuesta2 : Vectorizacion y Reciclado
+
+VECTORIZACION
+ Cuando queremos sumar una dederminada cantidad a los elementos de un vector numerico
+ se puede hacer de dos diferentes maneras:
+ -Haciendo uso de la funcion "for()" accedemos a cada elemento de la matriz y realizamos
+  la operacion deseada.
+  Ejemplo:
+  
+  v<-1:5
+  for(i in 1:5){
+   v[i]<-v[i]+1
+  }
+  
+  
+ -Tambien se puede hacer de manera directa con la siguiente operacion de vectores.
+  Ejemplo:
+  
+  v<-1:5
+  v<-v+1
+  
+  
+RECICLADO
+ Al momento de hacer una operacion de vectores de diferente longitud R hace 
+ un autocompletado al vector de mayor longitud para realisar la operacion de los vectores.
+ 
+ Ejemplo:
+ 
+ x<-1:4
+ y<-c(7,8)
+ x+y
+ [1] 8 10 10 12
+ 
+ 
